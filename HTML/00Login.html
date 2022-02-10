@@ -6,15 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michael Vaughn Jireh Bendal & John Paul D. Barruga">
     <title>Swappee</title>
-
     <!--CSS href-->
     <link rel="stylesheet" href="../CSS/00Login.css">
-	   <style>
-		p
-		{
-		  text-shadow: 1.5px 1.5px #BFAFB2;
-		}
-		</style>
+
 </head>
 <body>
     <!--COLOR #4ABDAC div-->
@@ -28,60 +22,23 @@
     <!-- Title section ENDS here -->
     <div class="clearfix"></div>
     </section>
-    <!--Create Yiur Swappee Account!-->
-		
+	<br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--Welcome to Swapee!-->
 	<div class="F1">
 		<p style="text-align:center; font-family:arial; font-size: 50px; color:black;"><strong>Welcome to Swappee!</strong></p>	
+		<br><br>
+		<div>
 		<form action="/action_page.php">
-			<!--Email Address-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;EMAIL ADDRESS:</h2>
-			<input type="text" style="font-size:  12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="email" name="Email" size="25" rows="2" maxlength="50" placeholder="Email Address:"></textarea>
+			<!--Email Address/Username-->
+		<label style=" font-family:arial; color:black">&nbsp;&nbsp;EMAIL ADDRESS or USERNAME:</label>
+			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 300px;" id="email" name="Email" size="25" rows="2" maxlength="50" placeholder="Email Address:"></textarea>
 			<br><br>
-			<!--First Name-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;FIRST NAME:</h2>
-			<input type="text" style="font-size:  12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="fname" name="Fname" size="25" rows="2" maxlength="50" placeholder="First Name:"></textarea>
-			<br>
-			<!--Middle Name-->	
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;MIDDLE NAME:</h2>
-			<input type="text" style="font-size:  12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="mname" name="Mname" size="25" rows="2" maxlength="50" placeholder="Middle Name:"></textarea>
-			<br>
-		<!--Last Name-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;LAST NAME:</h2>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="lname" name="Lname" size="25" rows="2" maxlength="50" placeholder="Last Name:"></textarea>
-		<br>
-		<!--Birthday-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;BIRTHDAY:</h2>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="birthday" name="Birthday" size="25" rows="2" maxlength="10" placeholder="mm-dd-yyyy"></textarea>
-		<br>
-		<!--Cellphone no.-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;CELLPHONE NO:</h2>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="phone" name="Phone" size="25" rows="2" maxlength="20" placeholder="Cellphone no."></textarea>
-		<br>
-		<!--Address-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;ADDRESS:</h2>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="address" name="Address" size="25" rows="2" maxlength="75" placeholder="Unit, Street, Subdivision, Etc."></textarea>
-		<br>	
-		<!--New Password-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;NEW PASSWORD:</h2>
-			<input type="password" style="height: 40px; width: 400px; border:1px solid #F5F5F5; font-family: arial; font-size: 14pt; " size="25" value="" id="myInput"><br><br>
-			<script>
-				function myFunction() 
-				{
-  					var x = document.getElementById("myInput");
-  					if (x.type === "password") 
-					{
-    				x.type = "text";
-  					} 	
-				  else
-					{
-    				x.type = "password";
-  					}
-				}
-			</script>
-		<!--Retype New Password-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;RETYPE NEW PASSWORD:</h2>
-			<input type="password" style="height: 40px; width: 400px; border:1px solid #F5F5F5; font-family: arial; font-size: 14pt; " size="25" value="" id="myInput2"><br><br>
-						<script>
+			<!--Password-->
+		</div>	
+		<div>	
+		<label style="font-family:arial; color:black">&nbsp;&nbsp;&nbsp;&nbsp;PASSWORD:</label>
+			 <input type="password" style="height: 40px; width: 200px; border:1px solid #F5F5F5; text-align: center; font-family: arial; font-size: 12pt; " size="25" maxlength="20" placeholder="Password" value="" id="myInput2"><br><br>
+					<script>
 				function myFunction() 
 				{
 		  			var x = document.getElementById("myInput2");
@@ -90,14 +47,15 @@
 					x.type = "text";
 		 			} 
 					 else 
-				{
-				x.type = "password";
-		  		}
+					{
+					x.type = "password";
+		  			}
 				}
-			</script>
+					</script>
+		</div>		
 	<br><br><br>
 		<!--Submit Button-->
-			<input type="submit" style="font-size:14pt; border:1px solid #F5F5F5; border-radius: 3px; height: 40px; width: 140px;"  value="Submit">
+			<input type="submit" style="font-size:14pt; border:1px solid #F5F5F5; border-radius: 3px; height: 40px; width: 140px;" value="Login">
 
 		</form>
 	</div>
@@ -105,7 +63,7 @@
 		<!--Body Ends Here-->
 		<!--Section Footer-->
 	<section class="footer">
-		2022 Swappee
+		©2022 Swappee <a href="#"><img src="../images/flag.png" alt="Flag" id="flag"></a> 
 	</section>
 		<!--Section Footer Ends Here-->
 </html>

@@ -21,17 +21,9 @@
     {
     display: inline;
     width: 50%;
-    border: 1px;
-    text-shadow: 1.5px 1.5px #BFAFB2;
+    border: 1px
     }
 
-/*p*/
-.p
-{
-
-      text-shadow: 1.5px 1.5px #BFAFB2;
-	
-}
 /*LOGO*/
 #logo 
     {
@@ -110,26 +102,12 @@ a:link
 
 .footer 
 {
-    bottom: -200px;
+    bottom: -500px;
 	background-color: #DBDBDB;
     position: relative;
 	padding-top: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 40px;
-}
-
-
-.F1
-{
-    text-shadow: 1px 1px #BFAFB2;
-	border-radius: 100px;
-	background: #FFFFFF;
-	width:700px;
-	height:550px;
-	border:2px solid #F5F5F5;
-	margin: auto;
-	padding: 100px;
-	text-align: center;   
 }
 
