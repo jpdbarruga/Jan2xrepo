@@ -8,7 +8,13 @@
     <title>Swappee</title>
 
     <!--CSS href-->
-    <link rel="stylesheet" href="01Restrationform.css">
+    <link rel="stylesheet" href="00Login.css">
+	   <style>
+		p
+		{
+		  text-shadow: 1.5px 1.5px #BFAFB2;
+		}
+		</style>
 </head>
 <body>
     <!--COLOR #4ABDAC div-->
@@ -23,8 +29,9 @@
     <div class="clearfix"></div>
     </section>
     <!--Create Yiur Swappee Account!-->
-	<p style="text-align:left; font-family:arial; color:#4ABDAC; font-size:50px"><strong>Create your Swappee Account!</strong></p>
+		
 	<div class="F1">
+		<p style="text-align:center; font-family:arial; font-size: 50px; color:black;"><strong>Welcome to Swappee!</strong></p>	
 		<form action="/action_page.php">
 			<!--Email Address-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;EMAIL ADDRESS:</h2>
@@ -57,7 +64,6 @@
 		<!--New Password-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;NEW PASSWORD:</h2>
 			<input type="password" style="height: 40px; width: 400px; border:1px solid #F5F5F5; font-family: arial; font-size: 14pt; " size="25" value="" id="myInput"><br><br>
-			<input type="checkbox" style="font-family: Arial; font-size: 10pt; " onclick="myFunction()">Show Password
 			<script>
 				function myFunction() 
 				{
@@ -75,8 +81,7 @@
 		<!--Retype New Password-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;RETYPE NEW PASSWORD:</h2>
 			<input type="password" style="height: 40px; width: 400px; border:1px solid #F5F5F5; font-family: arial; font-size: 14pt; " size="25" value="" id="myInput2"><br><br>
-			<input type="checkbox" style="font-family: Arial; font-size: 10pt; " onclick="myFunction()">Show Password
-			<script>
+						<script>
 				function myFunction() 
 				{
 		  			var x = document.getElementById("myInput2");

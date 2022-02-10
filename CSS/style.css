@@ -17,11 +17,11 @@
     padding-bottom: 5px;
     }
 
-.title-profile 
+    .title-profile 
     {
     display: inline;
     width: 50%;
-    border: 1px solid black;
+    border: 1px
     }
 
 /*LOGO*/
@@ -111,14 +111,3 @@ a:link
 	padding-bottom: 40px;
 }
 
-.F1
-{
-	border-radius: 75px;
-	background: #FFFFFF;
-	width:1200px;
-	height:1350px;
-	border:3px solid #F5F5F5;
-	margin: auto;
-	padding: 15px;
-	text-align: center;   
-}
