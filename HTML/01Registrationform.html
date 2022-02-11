@@ -24,39 +24,39 @@
     </section>
     <!--Create Yiur Swappee Account!-->
 	<p style="text-align:left; font-family:arial; color:#4ABDAC; font-size:50px"><strong>Create your Swappee Account!</strong></p>
-	<div class="F1">
+	<div class="Main">
 		<form action="/action_page.php">
 			<!--Email Address-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;EMAIL ADDRESS:</h2>
-			<input type="text" style="font-size:  12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="email" name="Email" size="25" rows="2" maxlength="50" placeholder="Email Address:"></textarea>
+			<input type="text" class="textbox"  id="email" name="Email" size="25" rows="2" maxlength="50" placeholder="Email Address:" required></textarea>
 			<br><br>
 			<!--First Name-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;FIRST NAME:</h2>
-			<input type="text" style="font-size:  12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="fname" name="Fname" size="25" rows="2" maxlength="50" placeholder="First Name:"></textarea>
+			<input type="text" class="textbox"  id="fname" name="Fname" size="25" rows="2" maxlength="50" placeholder="First Name:"required></textarea>
 			<br>
 			<!--Middle Name-->	
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;MIDDLE NAME:</h2>
-			<input type="text" style="font-size:  12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="mname" name="Mname" size="25" rows="2" maxlength="50" placeholder="Middle Name:"></textarea>
+			<input type="text" class="textbox"  id="mname" name="Mname" size="25" rows="2" maxlength="50" placeholder="Middle Name:"required></textarea>
 			<br>
 		<!--Last Name-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;LAST NAME:</h2>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="lname" name="Lname" size="25" rows="2" maxlength="50" placeholder="Last Name:"></textarea>
+			<input type="text" class="textbox"  id="lname" name="Lname" size="25" rows="2" maxlength="50" placeholder="Last Name:"required></textarea>
 		<br>
 		<!--Birthday-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;BIRTHDAY:</h2>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="birthday" name="Birthday" size="25" rows="2" maxlength="10" placeholder="mm-dd-yyyy"></textarea>
+			<input type="text" class="textbox"  id="birthday" name="Birthday" size="25" rows="2" maxlength="10" placeholder="mm-dd-yyyy"required></textarea>
 		<br>
 		<!--Cellphone no.-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;CELLPHONE NO:</h2>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="phone" name="Phone" size="25" rows="2" maxlength="20" placeholder="Cellphone no."></textarea>
+			<input type="text" class="textbox"  id="phone" name="Phone" size="25" rows="2" maxlength="20" placeholder="Cellphone no."required></textarea>
 		<br>
 		<!--Address-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;ADDRESS:</h2>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 400px;" id="address" name="Address" size="25" rows="2" maxlength="75" placeholder="Unit, Street, Subdivision, Etc."></textarea>
+			<input type="text" class="textbox" id="address" name="Address" size="25" rows="2" maxlength="75" placeholder="Unit, Street, Subdivision, Etc."required></textarea>
 		<br>	
 		<!--New Password-->
-		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;NEW PASSWORD:</h2>
-			<input type="password" style="height: 40px; width: 400px; border:1px solid #F5F5F5; font-family: arial; font-size: 14pt; " size="25" value="" id="myInput"><br><br>
+		<h2 style="text-align:center;font-family:arial;color:black" required>&nbsp;&nbsp;NEW PASSWORD:</h2>
+			<input type="password" class="textbox" style="font-size: 14pt;" size="25" value="" id="myInput" required><br><br>
 			<input type="checkbox" style="font-family: Arial; font-size: 10pt; " onclick="myFunction()">Show Password
 			<script>
 				function myFunction() 
@@ -74,7 +74,7 @@
 			</script>
 		<!--Retype New Password-->
 		<h2 style="text-align:center;font-family:arial;color:black">&nbsp;&nbsp;RETYPE NEW PASSWORD:</h2>
-			<input type="password" style="height: 40px; width: 400px; border:1px solid #F5F5F5; font-family: arial; font-size: 14pt; " size="25" value="" id="myInput2"><br><br>
+			<input type="password" class="textbox" style="font-size: 14pt;" size="25" value="" id="myInput2" required><br><br>
 			<input type="checkbox" style="font-family: Arial; font-size: 10pt; " onclick="myFunction()">Show Password
 			<script>
 				function myFunction() 
@@ -93,8 +93,7 @@
 	<br><br><br>
 		<!--Submit Button-->
 			<input type="submit" style="font-size:14pt; border:1px solid #F5F5F5; border-radius: 3px; height: 40px; width: 140px;"  value="Submit">
-
-		</form>
+	</form>
 	</div>
 </body>
 		<!--Body Ends Here-->

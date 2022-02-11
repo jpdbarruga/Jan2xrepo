@@ -112,3 +112,16 @@ a:link
 	padding-bottom: 40px;
 }
 
+.Main
+{
+    text-shadow: 1px 1px #BFAFB2;
+	border-radius: 100px;
+	background: #FFFFFF;
+	width:700px;
+	height:550px;
+	border:2px solid #F5F5F5;
+	margin: auto;
+	padding: 100px;
+	text-align: center;   
+}
+

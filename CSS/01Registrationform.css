@@ -102,7 +102,7 @@ a:link
 
 .footer 
 {
-    bottom: -500px;
+    bottom: -200px;
 	background-color: #DBDBDB;
     position: relative;
 	padding-top: 40px;
@@ -111,7 +111,7 @@ a:link
 	padding-bottom: 40px;
 }
 
-.F1
+.Main
 {
 	border-radius: 75px;
 	background: #FFFFFF;
@@ -121,4 +121,13 @@ a:link
 	margin: auto;
 	padding: 15px;
 	text-align: center;   
+}
+.textbox
+{
+    border-radius: 10px;
+    font-size:  13pt; 
+    border:1px solid #F5F5F5; 
+    text-align: center; 
+    height: 40px; 
+    width: 400px;
 }

@@ -21,9 +21,17 @@
     {
     display: inline;
     width: 50%;
-    border: 1px
+    border: 1px;
+    text-shadow: 1.5px 1.5px #BFAFB2;
     }
 
+/*p*/
+.p
+{
+
+      text-shadow: 1.5px 1.5px #BFAFB2;
+	
+}
 /*LOGO*/
 #logo 
     {
@@ -102,12 +110,26 @@ a:link
 
 .footer 
 {
-    bottom: -500px;
+    bottom: -200px;
 	background-color: #DBDBDB;
     position: relative;
 	padding-top: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 40px;
+}
+
+
+.Main
+{
+    text-shadow: 1px 1px #BFAFB2;
+	border-radius: 100px;
+	background: #FFFFFF;
+	width:400px;
+	height:550px;
+	border:2px solid black;
+    margin-bottom: 5%;
+    margin-left: 15%;
+	   
 }
 
