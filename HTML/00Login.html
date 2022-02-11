@@ -31,13 +31,12 @@
 		<form action="/action_page.php">
 			<!--Email Address/Username-->
 		<label style=" font-family:arial; color:black">&nbsp;&nbsp;EMAIL ADDRESS or USERNAME:</label>
-			<input type="text" style="font-size: 12pt; border:1px solid #F5F5F5; text-align: center; height: 40px; width: 300px;" id="email" name="Email" size="25" rows="2" maxlength="50" placeholder="Email Address:"></textarea>
+			<input type="text" class="textbox" style="height: 40px; width: 300px;" placeholder="Email Address" id="email" name="Email" size="25" rows="2" maxlength="50" ></textarea>
 			<br><br>
 			<!--Password-->
-		</div>	
-		<div>	
-		<label style="font-family:arial; color:black">&nbsp;&nbsp;&nbsp;&nbsp;PASSWORD:</label>
-			 <input type="password" style="height: 40px; width: 200px; border:1px solid #F5F5F5; text-align: center; font-family: arial; font-size: 12pt; " size="25" maxlength="20" placeholder="Password" value="" id="myInput2"><br><br>
+		</div>		
+		<label style="font-family:arial; color:black">&nbsp;&nbsp;&nbsp;&nbsp;PASSWORD:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			 <input type="password" class="textbox" size="25" maxlength="20" placeholder="Password" value="" id="passkey"><br><br>
 					<script>
 				function myFunction() 
 				{
@@ -51,8 +50,7 @@
 					x.type = "password";
 		  			}
 				}
-					</script>
-		</div>		
+					</script>	
 	<br><br><br>
 		<!--Submit Button-->
 			<input type="submit" style="font-size:14pt; border:1px solid #F5F5F5; border-radius: 3px; height: 40px; width: 140px;" value="Login">
