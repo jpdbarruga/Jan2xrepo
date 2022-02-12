@@ -141,4 +141,10 @@ a:link
     text-align: center; 
     font-family: arial; font-size: 12pt;
     position: relative;
+    padding: 10%;
+}
+
+.tag
+{
+    text-align: center;
 }
