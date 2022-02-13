@@ -1,0 +1,174 @@
+/* 
+    Author: Michael vaughn Jireh Bendal
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.header 
+    {
+    background-color: #4ABDAC;
+    /*Remove border after*/
+    /* border: 5px solid black; */
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+.title-profile 
+    {
+    display: inline;
+    width: 50%;
+    border: 1px;
+    }
+
+/*LOGO*/
+#logo 
+    {
+    color: whitesmoke;
+    font-size: 75px;
+    float: left;
+    /* border: 2px solid black; */
+    }
+
+.clearfix 
+    {
+    clear: both;
+    }
+/*for texts in menu and logo*/
+a:visited 
+    {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    }
+
+a:active 
+    {
+    text-decoration: underline;
+    }
+
+a:link 
+    {
+    text-decoration: none;
+    color: azure;
+    }
+
+/*menu class*/
+
+.menu {
+    font-size: 25px;
+    /* border: 5px solid black;
+    border-width: 50%; */
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* border-color: black; */
+    border: 2px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul li a:hover {
+    color: #8DE3C7;
+    text-decoration: underline;
+}
+
+/*Search Bar*/
+.search {
+    float: right;
+}
+
+/* Profile Picture */
+#profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+    line-height: 10px;
+    border: 1px solid black;
+    display: inline;
+    line-height: 50%;
+}
+
+.footer 
+{
+    bottom: -200px;
+	background-color: #DBDBDB;
+    position: relative;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+}
+
+.Main
+{
+	border-radius: 5px;
+	background: #FFFFFF;
+	width:500px;
+	height:600px;
+	border:3px solid #DBDBDB;
+	margin-left: 280px;
+    margin-top: -10px;
+	text-align: center;   
+}
+
+.Main2
+{
+	border-radius: 5px;
+	background: #FFFFFF;
+	width:500px;
+	height:600px;
+	border:3px solid #DBDBDB;
+	margin-left: 1100px;
+    margin-top: -608px;
+	text-align: center;   
+}
+
+.Main3
+{
+	border-radius: 10px;
+	background: #FFFFFF;
+	width:250px;
+	height:240px;
+	border:3px solid black;
+	margin-left: 280px;
+    margin-top: 20px;
+    font-size: 20px;
+	text-align: left;   
+}
+
+.Main4
+{
+	border-radius: 10px;
+	background: #FFFFFF;
+	width:250px;
+	height:240px;
+	border:3px solid black;
+	margin-left: 1100px;
+    margin-top: -246px;
+    font-size: 20px;
+	text-align: left;   
+}
+
+.button
+{
+    font-size:16pt; 
+    border:1px solid #F5F5F5; 
+    border-radius: 3px; 
+    height: 50px; 
+    width: 195px;
+    margin-left: 840px;
+    margin-top: -100px;
+}
+
