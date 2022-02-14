@@ -108,9 +108,17 @@ a:link
     line-height: 50%;
 }
 
+.Title
+{
+    text-align:Center; 
+    font-family:arial; 
+    color:#4ABDAC; 
+    font-size:70px;
+}
+
 .footer 
 {
-    bottom: -200px;
+    bottom: -100px;
 	background-color: #DBDBDB;
     position: relative;
 	padding-top: 40px;
@@ -122,27 +130,40 @@ a:link
 
 .Main
 {
-    text-shadow: 1px 1px #BFAFB2;
-	border-radius: 100px;
+	border-radius: 1px;
 	background: #FFFFFF;
-	width:700px;
-	height:550px;
-	border:2px solid #F5F5F5;
-	margin: auto;
-	padding: 100px;
-	text-align: center;   
+    font-size: 40px;
+    position: relative; left: 100px;
+	width:900px;
+	height:100px;	   
 }
 
-.textbox
+.Main2
 {
-    height: 40px; 
-    width: 300px; 
-    border:1px solid #F5F5F5; 
-    text-align: center; 
-    font-family: arial; font-size: 12pt;
+    border-radius: 1px;
+    font-size: 40px; 
+    position: relative; left: 100px;
+    width: 900px;
+    height: 100px;
 }
-.description
+
+.thankyou
+{ 
+    margin: auto;
+    color: #4ABDAC;
+    border-radius: 1px;
+    font-size: 70px; 
+    width: 1030px;
+    height: 150px;
+}
+
+.button
 {
-    font-family:arial; 
-    color:black 
+    position: relative; left: 900px; top: 70px;
+    font-size:30pt; 
+    border:1px solid #F5F5F5; 
+    border-radius: 20px;
+    height: 105px;
+    width: 175px; 
+       
 }
