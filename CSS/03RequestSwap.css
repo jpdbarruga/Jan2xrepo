@@ -1,0 +1,205 @@
+/* 
+    Author: Michael vaughn Jireh Bendal
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.header 
+    {
+    background-color: #4ABDAC;
+    /*Remove border after*/
+    /* border: 5px solid black; */
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+    .title-profile 
+    {
+    display: inline;
+    width: 50%;
+    border: 1px;
+    text-shadow: 1.5px 1.5px #BFAFB2;
+    }
+
+/*p*/
+.p
+{
+
+      text-shadow: 1.5px 1.5px #BFAFB2;
+	
+}
+/*LOGO*/
+#logo 
+    {
+    color: whitesmoke;
+    font-size: 75px;
+    float: left;
+    /* border: 2px solid black; */
+    }
+
+.clearfix 
+    {
+    clear: both;
+    }
+/*for texts in menu and logo*/
+a:visited 
+    {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    }
+
+a:active 
+    {
+    text-decoration: underline;
+    }
+
+a:link 
+    {
+    text-decoration: none;
+    color: azure;
+    }
+
+/*menu class*/
+
+.menu {
+    font-size: 25px;
+    /* border: 5px solid black;
+    border-width: 50%; */
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* border-color: black; */
+    border: 2px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul li a:hover {
+    color: #8DE3C7;
+    text-decoration: underline;
+}
+
+/*Search Bar*/
+.search {
+    float: right;
+}
+
+/* Profile Picture */
+#profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+    line-height: 10px;
+    border: 1px solid black;
+    display: inline;
+    line-height: 50%;
+}
+
+.footer 
+{
+    bottom: -200px;
+	background-color: #DBDBDB;
+    position: relative;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+}
+
+.title
+{
+    font-family: Arial;
+    font-size: 40px;
+	border-radius: 2px;
+	background: #FFFFFF;
+	width:370px;
+	height: auto;
+	border:1px solid White;
+    position: relative; left:350px; top: -10px;	   
+}
+
+.main
+{
+	border-radius: 15px;
+	background: #FFFFFF;
+	width:500px;
+	height:650px;
+	border:1px solid #DBDBDB;
+    position: relative;  
+    margin: auto;
+}
+
+.owner
+{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 2px;
+    position: relative; left: 350px; top: -400px;
+    width: 180px;
+    height: auto;
+    text-shadow: none;
+}
+
+.description
+{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 2px;
+    position: relative; left: 400px; top: -50px;
+    width: 200px;
+    height: auto;
+    text-shadow: none;
+}
+
+.category
+{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 2px;
+    position: relative; left: 1225px; top: -700px;
+    width: 200px;
+    height: auto;
+    text-shadow: none;
+}
+
+.status
+{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 2px;
+    position: relative; left: 1225px; top: -720px;
+    width: 200px;
+    height: auto;
+    text-shadow: none;
+}
+
+.request
+{
+    font-size:30pt; 
+    border:1px solid #F5F5F5; 
+    border-radius: 3px; 
+    height: 90px; 
+    width: 400px;
+    position: relative; left: 750px; 
+}
