@@ -15,6 +15,7 @@
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    position: relative; left: 0px;
     }
 
 .title-profile 
@@ -100,9 +101,17 @@ a:link
     line-height: 50%;
 }
 
+.Title
+{
+    text-align:Center; 
+    font-family:arial; 
+    color:#4ABDAC; 
+    font-size:50px;
+      
+}
 .footer 
 {
-    bottom: -200px;
+    top: -5px;
 	background-color: #DBDBDB;
     position: relative;
 	padding-top: 40px;
@@ -117,7 +126,7 @@ a:link
 	background: #FFFFFF;
 	width:500px;
 	height:600px;
-	border:3px solid #DBDBDB;
+	border:1px solid #DBDBDB;
 	margin-left: 280px;
     margin-top: -10px;
 	text-align: center;   
@@ -129,7 +138,7 @@ a:link
 	background: #FFFFFF;
 	width:500px;
 	height:600px;
-	border:3px solid #DBDBDB;
+	border:1px solid #DBDBDB;
 	margin-left: 1100px;
     margin-top: -608px;
 	text-align: center;   
@@ -141,9 +150,8 @@ a:link
 	background: #FFFFFF;
 	width:250px;
 	height:240px;
-	border:3px solid black;
-	margin-left: 280px;
-    margin-top: 20px;
+	border:1px solid #FFFFFF;
+    position: relative; left: 280px; top: 20px;
     font-size: 20px;
 	text-align: left;   
 }
@@ -154,9 +162,8 @@ a:link
 	background: #FFFFFF;
 	width:250px;
 	height:240px;
-	border:3px solid black;
-	margin-left: 1100px;
-    margin-top: -246px;
+	border:1px solid #FFFFFF;
+    position: relative; left: 1100px; top: -226px;
     font-size: 20px;
 	text-align: left;   
 }
@@ -168,7 +175,6 @@ a:link
     border-radius: 3px; 
     height: 50px; 
     width: 195px;
-    margin-left: 840px;
-    margin-top: -100px;
+    position: relative; left: 850px; bottom: -350px;
 }
 
