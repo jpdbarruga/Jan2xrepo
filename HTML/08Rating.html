@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michael Vaughn Jireh Bendal & John Paul D. Barruga">
-    <title>Congratulations</title>
+    <title>Swappee</title>
     <!--CSS href-->
-    <link rel="stylesheet" href="../CSS/07Congratulations.css">
+    <link rel="stylesheet" href="../CSS/08Rating.css">
 
 </head>
 <body>
-    <div id="body">
     <!--COLOR #4ABDAC div-->
     <section class="header">
     <!-- Title section BEGINS here -->
@@ -22,31 +21,35 @@
     </div>
     <!-- Title section ENDS here -->
     <div class="clearfix"></div>
-        <!-- Navbar section ENDS here -->
     </section>
-    <p class="Title"><strong>Congratulations!</strong></p>
-    <br><br><br>
-        <!--div main !-->
-	<div class="Main">
-        <p>Your Item _______ has been sucefully swapped.</p>
-    </div>
-        <br><br>
-        <!--Main2-->
-    <div class="Main2">
-        <p>In return, you will receive this item. _______</p>
-    </div>
-        <!--thankyou-->
-   <div class="thankyou"> 
-    <p><strong>Thank you for using Swappee!</strong></p>
-   </div>
-        <!--Main Ends Here-->
-        <!--Button Home-->
-        <form action="../HTML/02Home.html">
-		<input type="submit" class="button" value="Ok">
-        </form>
-    </div>
-    <br><br><br><br><br><br><br><br><br>
-    </body>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--Welcome to Swapee!-->
+	<div id="body">
+		<div class="Main">
+			<div class="title">
+			<p><strong>How is your experience? </strong></p>	
+			</div>
+		<br>
+		<form action="/action_page.php">
+			<!--Rating-->
+			<div class="rating">
+				Rating:            
+			</div>
+			<!--Message-->
+			<div class="textmessage">
+				Message (Optional):
+				<br>
+				<textarea class="textbox" placeholder="message" id="email" name="Email" rows="13" cols="80" maxlength="1000" ></textarea>
+			</div>		
+			<div class="textmessage2">
+				<p>Your feedback helps us make the website even better!</p>
+			</div>
+			<!--Submit Button-->
+			<input type="submit" class="button" value="Submit">
+		</form>	
+		</div>
+	</div>
+</body>
 		<!--Body Ends Here-->
 		<!--Section Footer-->
 	<section class="footer">
