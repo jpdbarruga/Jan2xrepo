@@ -1,0 +1,216 @@
+/* 
+    Author: Michael vaughn Jireh Bendal
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.header 
+    {
+    background-color: #4ABDAC;
+    /*Remove border after*/
+    /* border: 5px solid black; */
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+.title-profile 
+    {
+    display: inline;
+    width: 50%;
+    border: 1px;
+    text-shadow: 1.5px 1.5px #BFAFB2;
+    }
+
+/*LOGO*/
+#logo 
+    {
+    color: whitesmoke;
+    font-size: 75px;
+    float: left;
+    /* border: 2px solid black; */
+    }
+
+.clearfix 
+    {
+    clear: both;
+    }
+/*for texts in menu and logo*/
+a:visited 
+    {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    }
+
+a:active 
+    {
+    text-decoration: underline;
+    }
+
+a:link 
+    {
+    text-decoration: none;
+    color: azure;
+    }
+
+/*menu class*/
+
+.menu {
+    font-size: 25px;
+    /* border: 5px solid black;
+    border-width: 50%; */
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* border-color: black; */
+    border: 2px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul li a:hover {
+    color: #8DE3C7;
+    text-decoration: underline;
+}
+
+/*Search Bar*/
+.search {
+    float: right;
+}
+
+/* Profile Picture */
+#profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+    line-height: 10px;
+    border: 1px solid black;
+    display: inline;
+    line-height: 50%;
+}
+
+.footer 
+{
+    bottom: -500px;
+	background-color: #DBDBDB;
+    position: relative;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+}
+
+.title
+{
+    border: 2px solid white;
+    font-family: Arial;
+    color: #4ABDAC;
+    font-size: 50px;
+    width: 500px;
+    padding-left: 20px;
+    position: relative; top: 0px; left: 300px;
+}
+
+.signs
+{
+    border: 2px solid white;
+    position: relative; top: 50px;
+    margin: auto;
+    width: 750px;
+    height: 250px
+}
+.box
+{
+    position: relative; left: 90px; top: 50px;
+}
+.lbox
+{
+    font-family: Arial;
+    font-size: 30px;
+    position: relative; left: -55px; top: 75px;
+}
+
+.truck
+{
+    position: relative; left: 30px; top: 50px;
+}
+.ltruck
+{
+    font-family: Arial;
+    font-size: 30px;
+    position: relative; left: -120px; top: 75px;
+}
+
+.ok
+{
+    position: relative; left: -50px;
+    top: 50px;
+}
+.lok
+{
+    font-family: Arial;
+    font-size: 30px;
+    position: relative; left: 550px; top: 40px;
+}
+
+
+.main
+{
+    text-shadow: 1px 1px #BFAFB2;
+	border-radius: 50px;
+	background: #FFFFFF;
+	width:1100px;
+	height:600px;
+	border:1px solid #DBDBDB;
+    position: relative; top: 60px; 
+	margin: auto;
+	text-align: left;   
+}
+.pic
+{
+    border: 1px solid #DBDBDB;
+    height: 350px;
+    width: 350px;
+    position: relative; top: 120px; left: 20px;
+}
+.label
+{   
+    border: 1px solid white;
+    height: 450px;
+    width: 700px;
+    position: relative; top: -234px; left: 375px;
+}
+.tag
+{
+    font-family: Arial;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.tag2
+{
+    font-size: 30px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.button
+{
+    font-family: Arial;
+    font-size: 35px;
+    border:1px solid #F5F5F5; 
+    border-radius: 3px; 
+    height: 50px; 
+    width: 130px; 
+    position:relative; left: 480px;  top: -50px;
+}

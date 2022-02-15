@@ -8,7 +8,7 @@
     <title>Home</title>
 
     <!--Stylesheet-->
-    <link rel="stylesheet" href="../CSS/10TransactionHistory.css">
+    <link rel="stylesheet" href="../CSS/10TransactionDetails.css">
 </head>
 <body>
     <!--COLOR #4ABDAC div-->
@@ -26,7 +26,7 @@
             <ul>
                 <li><a href="03Home.html" target="_self">Home</a></li>
                 <li><a href="#" target="_self">Product</a></li>
-                <li><a href="10TransactionHistory.html" target="_self">Transaction history</a></li>
+                <li><a href="09TransactionHistory.html" target="_self">Transaction history</a></li>
                 <li><a class="search">          
                     <form action="/action_page.php"> 
                         <label for="isearch">Search: </label>
@@ -41,34 +41,48 @@
         </div>
     <!-- Navbar section ENDS here -->
     </section>
-        <!--body-->
+        <!--Body-->
     <div id="body">
-        <!--title-->
+        <!--Title-->
         <div class="title">
-            <p><strong>Transaction History</strong></p>
+            <p><b>Transaction Details</b></p>
         </div>
-        <!--Main-->
+        <!--Signs-->
+        <div class="signs">
+            <!--Shipment-->
+            <img src="../images/box.png" alt="ship" width="100" height="100" class="box">
+            <label for="box" class="lbox">Item is packed</label>
+            <!--Delivery-->
+            <img src="../images/truck.png" alt="truck" width="100" height="100" class="truck">
+            <label for="box" class="ltruck">Item for Delivery</label>
+            <!--Delivered-->
+            <img src="../images/ok.png" alt="check" width="100" height="100" class="ok">
+            <label for="ok" class="lok">Completed</label>    
+        </div>
+        <!--main-->
         <div class="main">
-           <!--Tag1-->
-            <div class="tag1">
-            <p>ITEM: XXXXX</p>
-           </div>
-           <!--pic-->
-           <div class="pic">
-           </div>
-           <div class="tag2">
-                Swappee I.D. no:
-                <br>
-                Status:
-                <br>
-                Date of Transaction: mmm/dd/yyyy hh:mm:ss
-                <br>
-                Swapped from:
-                <br>
-           </div>
-        </div>
+            <!--picbox-->
+            <div class="pic">
         
-    </div>
+            </div>
+            <!--label-->
+            <div class="label">
+                <!--I.D.-->
+                <label for=""class="tag">Swappee I.D. no:</label>
+                <br>
+                <!--Status-->
+                <label for=""class="tag">Status:</label>
+                <br>
+                <!--Date-->
+                <label for=""class="tag">Date of Transaction: (mm/dd/yyyy hh:mm:ss)</label>
+                <br>
+                <!--Swapped-->
+                <label for=""class="tag">Swapped From:</label>
+                <br><br>
+                <label for=""class="tag2">Delivery Address:</label>  
+            </div>
+            <input type="button" class="button" value="Return">
+        </div>
 </body>
 
 <section class="footer">
