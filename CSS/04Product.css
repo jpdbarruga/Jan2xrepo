@@ -66,7 +66,7 @@ a:link
 /*menu class*/
 
 .menu {
-    font-size: 25px;
+    font-size: 35px;
     /* border: 5px solid black;
     border-width: 50%; */
 }
@@ -204,5 +204,5 @@ a:link
     border-radius: 3px; 
     height: 90px; 
     width: 400px;
-    position: relative; left: 750px; 
+    position: relative; left: 750px; top: -100px;
 }

@@ -103,6 +103,7 @@ a:link
 
 .footer 
 {
+    bottom: -10px;
 	background-color: #DBDBDB;
     position: relative;
 	padding-top: 40px;
@@ -117,6 +118,7 @@ a:link
     font-family: Arial;
     color: #4ABDAC;
     font-size: 50px;
+    text-shadow: 1px 1px #BFAFB2;
     width: 700px;
     padding-left: 20px;
     position: relative; top: -30px; left: 150px;
@@ -157,7 +159,7 @@ a:link
 .main
 {
     border:1px solid #DBDBDB;
-    border-radius: 25px;
+    border-radius: 10px;
     height: 600px;
     width: 450px;
     margin: 10px;

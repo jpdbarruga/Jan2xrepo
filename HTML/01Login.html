@@ -26,13 +26,13 @@
     <!--Welcome to Swapee!-->
 	
 	<div class="Main">
-		<p style="text-align:center; font-family:arial; font-size: 50px; color:black;"><strong>Welcome to Swappee!</strong></p>	
+		<p id="title">Welcome to Swappee!</p>	
 		<br><br>
 		<div>
 		<form action="/action_page.php">
 			<!--Email Address/Username-->
 		<label id="decription">&nbsp;&nbsp;EMAIL ADDRESS or USERNAME:</label>
-			<input type="text" class="textbox"  placeholder="Email Address" id="email" name="Email" size="25" rows="2" maxlength="50" ></textarea>
+			<input type="text" class="textbox"  placeholder="Email Address" id="email" name="Email" size="25" rows="2" maxlength="50" required></textarea>
 			<br><br>
 			<!--Password-->
 		</div>
@@ -41,7 +41,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<label id="decription">PASSWORD:</label>
-			 <input type="password" class="textbox" size="25" maxlength="20" placeholder="Password" value="" id="passkey"><br><br>
+			 <input type="password" class="textbox" size="25" maxlength="20" placeholder="Password" value="" id="passkey" required><br><br>
 					<script>
 				function myFunction() 
 				{

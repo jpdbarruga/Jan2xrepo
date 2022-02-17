@@ -119,6 +119,14 @@ a:link
 	padding-bottom: 40px;
 }
 
+#title
+{
+ text-align:center; 
+ font-family:arial; 
+ font-size: 50px; 
+ color: #4ABDAC;  
+}
+
 
 .Main
 {

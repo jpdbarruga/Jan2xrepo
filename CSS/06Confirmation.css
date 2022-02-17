@@ -59,7 +59,7 @@ a:link
 /*menu class*/
 
 .menu {
-    font-size: 25px;
+    font-size: 35px;
     /* border: 5px solid black;
     border-width: 50%; */
 }
@@ -101,17 +101,18 @@ a:link
     line-height: 50%;
 }
 
-.Title
+#Title
 {
     text-align:Center; 
     font-family:arial; 
     color:#4ABDAC; 
     font-size:50px;
+    text-shadow: 1.5px 1.5px #BFAFB2
       
 }
 .footer 
 {
-    top: -5px;
+    top: -0px;
 	background-color: #DBDBDB;
     position: relative;
 	padding-top: 40px;

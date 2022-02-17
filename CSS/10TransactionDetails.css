@@ -59,7 +59,7 @@ a:link
 /*menu class*/
 
 .menu {
-    font-size: 25px;
+    font-size: 35px;
     /* border: 5px solid black;
     border-width: 50%; */
 }
@@ -112,7 +112,7 @@ a:link
 	padding-bottom: 40px;
 }
 
-.title
+#title
 {
     border: 2px solid white;
     font-family: Arial;
@@ -120,7 +120,8 @@ a:link
     font-size: 50px;
     width: 500px;
     padding-left: 20px;
-    position: relative; top: 0px; left: 300px;
+    position: relative; top: 30px; left: 150px;
+    text-shadow: 1px 1px #BFAFB2;
 }
 
 .signs

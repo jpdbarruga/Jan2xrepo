@@ -108,12 +108,13 @@ a:link
     line-height: 50%;
 }
 
-.Title
+#Title
 {
     text-align:Center; 
     font-family:arial; 
     color:#4ABDAC; 
-    font-size:70px;
+    font-size:60px;
+    text-shadow: 1.5px 1.5px #BFAFB2
 }
 
 .footer 
@@ -126,7 +127,6 @@ a:link
 	padding-right: 10px;
 	padding-bottom: 40px;
 }
-
 
 .Main
 {
@@ -147,14 +147,15 @@ a:link
     height: 100px;
 }
 
-.thankyou
+#thankyou
 { 
     margin: auto;
     color: #4ABDAC;
     border-radius: 1px;
-    font-size: 70px; 
+    font-size: 60px; 
     width: 1030px;
     height: 150px;
+    text-shadow: 1.5px 1.5px #BFAFB2
 }
 
 .button
@@ -163,7 +164,7 @@ a:link
     font-size:30pt; 
     border:1px solid #F5F5F5; 
     border-radius: 20px;
-    height: 105px;
-    width: 175px; 
+    height: 95px;
+    width: 150px; 
        
 }
