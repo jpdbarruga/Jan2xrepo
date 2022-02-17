@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Vaughn Jireh Bendal & John Paul D. Barruga">
+    <title>Home</title>
+    <!--CSS href-->
+    <link rel="stylesheet" href="../CSS/03Home.css">
+
+</head>
+<body>
+    <!--COLOR #4ABDAC div-->
+    <section class="header">
+    <!-- Title section BEGINS here -->
+    <div class="title-profile">
+        <a href="03Home.html" target="_self"><h2 id="logo">Swappee</h2></a>
+        <!--Profile -->
+        <a href="#"><img src="../images/img_avatar.png" alt="Profile" id="profile-picture"></a>
+    </div>
+    <!-- Title section ENDS here -->
+    <div class="clearfix"></div>
+    <!-- Menu section BEGINS here -->
+        <div class="menu">
+            <ul>
+                <li><a href="03Home.html" target="_self">Home</a></li>
+                <li><a href="04Product.html" target="_self">Product</a></li>
+                <li><a href="09TransactionHistory.html" target="_self">Transaction history</a></li>
+                <li><a class="search">          
+                    <form action="/action_page.php"> 
+                        <label for="isearch">Search: </label>
+                        <input type="search" style= "border-radius: 3px;\" id="isearch" name="isearch">
+                        <input type="submit" value="Go">
+                     </form>
+                    </a>  
+                </li>
+            </ul>
+            <!--Search section BEGINS here -->
+            <!--Put Search Function-->
+        </div>
+    <!-- Navbar section ENDS here -->
+    </section>
+	<br><br><br>
+    <!--Div Body-->
+	<div id="body">
+        <!--Title-->
+       <p id="title">Available items for swap:</p>
+       <div class="box">
+           <!--Item tag-->
+            <p><b>Item Tags:</b></p>           
+                <ul>
+                    <li><a id="tags" href="#" target="">Bags</a></li>
+                    <br>
+                    <li><a id="tags" href="#" target="">Clothes</a></li>
+                    <br>
+                    <li><a id="tags" href="#" target="">Appliances</a></li>
+                    <br>
+                    <li><a id="tags" href="#" target="">Gadgets</a></li>
+                    <br>
+                    <li><a id="tags" href="#" target="">Hardware</a></li>
+                    <br>
+                    <li><a id="tags" href="#" target="">School Supplies</a></li>
+                </ul>			   
+        </div>
+        <!--Container-->
+        <div id="container">
+            <!--Main-->
+            <div class="main">
+                <!--picture-->
+                <div id="pic">
+                      <img src="#" alt="picture.png">  
+                </div>
+                <!--Item Name-->
+                <label for="items" id="nametag">Item:</label>
+                <br>
+                <!--Owner-->
+                <label for="user" id="nametag2">Owner:</label>
+                <br><br>
+                <!--Category-->
+                <label for="type" id="nametag2">Category:</label>
+            </div>
+            <div class="main">
+                <!--picture-->
+                <div id="pic">
+                      <img src="#" alt="picture.png">  
+                </div>
+                <!--Item Name-->
+                <label for="items" id="nametag">Item:</label>
+                <br>
+                <!--Owner-->
+                <label for="user" id="nametag2">Owner:</label>
+                <br><br>
+                <!--Category-->
+                <label for="type" id="nametag2">Category:</label>
+            </div>
+        </div>
+    </div>
+    <!--Body Ends Here-->
+</body>
+		<!--Section Footer-->
+	<section class="footer">
+		©2022 Swappee <a href="#"><img src="../images/flag.png" alt="Flag" id="flag"></a> 
+	</section>
+		<!--Section Footer Ends Here-->
+</html>
