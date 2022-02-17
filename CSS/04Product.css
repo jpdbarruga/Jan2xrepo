@@ -119,19 +119,22 @@ a:link
 	padding-bottom: 40px;
 }
 
-.title
+#main
+{
+    border: 1px solid white;
+    width: 1500px;
+    height:1100px;
+    position: relative; 
+}
+
+#title
 {
     font-family: Arial;
     font-size: 40px;
-	border-radius: 2px;
-	background: #FFFFFF;
-	width:370px;
-	height: auto;
-	border:1px solid White;
-    position: relative; left:350px; top: -10px;	   
+    position: relative; left:250px; top: -10px;	   
 }
 
-.main
+.photo
 {
 	border-radius: 15px;
 	background: #FFFFFF;
@@ -149,7 +152,7 @@ a:link
     text-align: left;
     border: 1px solid white;
     border-radius: 2px;
-    position: relative; left: 350px; top: -400px;
+    position: relative; left: 250px; top: -400px;
     width: 180px;
     height: auto;
     text-shadow: none;
@@ -162,7 +165,7 @@ a:link
     text-align: left;
     border: 1px solid white;
     border-radius: 2px;
-    position: relative; left: 400px; top: -50px;
+    position: relative; left: 400px; top: -70px;
     width: 200px;
     height: auto;
     text-shadow: none;
@@ -175,7 +178,7 @@ a:link
     text-align: left;
     border: 1px solid white;
     border-radius: 2px;
-    position: relative; left: 1225px; top: -700px;
+    position: relative; left: 1025px; top: -700px;
     width: 200px;
     height: auto;
     text-shadow: none;
@@ -188,7 +191,7 @@ a:link
     text-align: left;
     border: 1px solid white;
     border-radius: 2px;
-    position: relative; left: 1225px; top: -720px;
+    position: relative; left: 1025px; top: -720px;
     width: 200px;
     height: auto;
     text-shadow: none;
